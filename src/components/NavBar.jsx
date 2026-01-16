@@ -2,10 +2,10 @@ import CartWidget from "./CartWidget"
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: '#f24d00'}}>
       <div className="container">
         <a className="navbar-brand" href="#">
-          FoodStore
+          <img src="/public/logo-blanco.png" alt="Logo" height="40" />
         </a>
 
         <div className="collapse navbar-collapse">
